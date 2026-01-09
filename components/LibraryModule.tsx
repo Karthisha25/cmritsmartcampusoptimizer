@@ -50,7 +50,7 @@ const LibraryModule: React.FC = () => {
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Select Time Slot</label>
               <select value={selectedTime} onChange={(e) => setSelectedTime(e.target.value)} className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-2">
-                {['09:00 AM', '12:00 PM', '02:00 PM', '04:00 PM', '06:00 PM'].map(t => <option key={t}>{t}</option>)}
+                {['08:00 AM', '09:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '01:00 PM', '02:00 PM', '03:00 PM', '04:00 PM', '05:00 PM', '06:00 PM', '07:00 PM'].map(t => <option key={t}>{t}</option>)}
               </select>
             </div>
           </div>

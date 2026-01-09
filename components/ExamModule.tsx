@@ -46,7 +46,7 @@ const ExamModule: React.FC = () => {
              <div>
                 <label className="block text-xs font-bold text-gray-400 uppercase mb-1">Time</label>
                 <select value={selectedTime} onChange={(e) => setSelectedTime(e.target.value)} className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-2">
-                  {['09:00 AM', '11:00 AM', '01:00 PM', '03:00 PM'].map(t => <option key={t}>{t}</option>)}
+                  {['09:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '01:00 PM', '02:00 PM', '03:00 PM', '04:00 PM'].map(t => <option key={t}>{t}</option>)}
                 </select>
              </div>
           </div>
